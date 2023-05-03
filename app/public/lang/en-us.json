@@ -83,7 +83,7 @@
     "defaultMessage": "Download SVG"
   },
   "N2NGTf": {
-    "defaultMessage": "Chat with GPT",
+    "defaultMessage": "Chat with Lisa",
     "description": "app name"
   },
   "NRJ4IQ": {
@@ -131,7 +131,7 @@
     "description": "Heading for the setting that lets users customize various UI elements"
   },
   "bIacvz": {
-    "defaultMessage": "Chat with GPT - Unofficial ChatGPT app",
+    "defaultMessage": "Chat with Lisa - Unofficial ChatGPT app",
     "description": "HTML title tag"
   },
   "f/hGIY": {
@@ -171,7 +171,7 @@
     "description": "Label for a button that appears when the user is editing the text of one of their messages, to cancel without saving changes"
   },
   "role-chatgpt": {
-    "defaultMessage": "ChatGPT",
+    "defaultMessage": "Lisa",
     "description": "Label that is shown above messages written by the AI (as opposed to the user)"
   },
   "role-system": {
