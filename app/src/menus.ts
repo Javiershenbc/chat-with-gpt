@@ -6,9 +6,9 @@ export interface MenuItem {
 
 export const secondaryMenu: MenuItem[] = [
   {
-    label: "Discord",
-    link: "https://discord.gg/mS5QvKykvv",
-    icon: "discord fab",
+    label: "URL",
+    link: "https://www.sedeblockchain.com/",
+    icon: "link",
   },
   {
     label: "instagram",

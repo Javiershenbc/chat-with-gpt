@@ -1,0 +1,21 @@
+version: "3.4"
+
+services:
+  chatwithgpt:
+    image: chatwithgpt
+    build:
+      context: server
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: dev
+    ports:
+      - 3001:3001
+  app:
+    image: app
+    build:
+      context: app
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: dev
+    ports:
+      - 3000:3000

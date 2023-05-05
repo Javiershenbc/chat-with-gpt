@@ -1,1 +1,1 @@
-export const APP_NAME = "Chat with Lisa";
+export const APP_NAME = "Chat with Hyper";

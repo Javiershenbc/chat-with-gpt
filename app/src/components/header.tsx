@@ -213,7 +213,7 @@ export default function Header(props: HeaderProps) {
             <title>
               {props.title ? `${props.title} - ` : ""}
               {intl.formatMessage({
-                defaultMessage: "Chat with Lisa - Improved ChatGPT app",
+                defaultMessage: "Chat with Hyper - Improved ChatGPT app",
                 description: "HTML title tag",
               })}
             </title>
@@ -229,7 +229,7 @@ export default function Header(props: HeaderProps) {
           {context.isHome && (
             <h2>
               {intl.formatMessage({
-                defaultMessage: "Chat with Lisa",
+                defaultMessage: "Chat with Hyper",
                 description: "app name",
               })}
             </h2>
