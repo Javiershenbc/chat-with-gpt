@@ -243,14 +243,14 @@ export default function MessageComponent(props: {
           if (share) {
             return intl.formatMessage({
               id: "role-user-formal",
-              defaultMessage: "User",
+              defaultMessage: "Usuario",
               description:
                 "Label that is shown above messages written by the user (as opposed to the AI) for publicly shared conversation (third person, formal).",
             });
           } else {
             return intl.formatMessage({
               id: "role-user",
-              defaultMessage: "You",
+              defaultMessage: "Usted",
               description:
                 "Label that is shown above messages written by the user (as opposed to the AI) in the user's own chat sessions (first person).",
             });
@@ -317,13 +317,13 @@ export default function MessageComponent(props: {
                   <i className="fa fa-clipboard" />
                   {copied ? (
                     <FormattedMessage
-                      defaultMessage="Copied"
+                      defaultMessage="Copiado"
                       description="Label for copy-to-clipboard button after a successful copy"
                     />
                   ) : (
                     <span>
                       <FormattedMessage
-                        defaultMessage="Copy"
+                        defaultMessage="Copiar"
                         description="Label for copy-to-clipboard button"
                       />
                     </span>
@@ -341,7 +341,7 @@ export default function MessageComponent(props: {
                 <i className="fa fa-share" />
                 <span>
                   <FormattedMessage
-                    defaultMessage="Share"
+                    defaultMessage="Compartir"
                     description="Label for a button which shares the text of a chat message using the user device's share functionality"
                   />
                 </span>
@@ -361,12 +361,12 @@ export default function MessageComponent(props: {
                 <span>
                   {editing ? (
                     <FormattedMessage
-                      defaultMessage="Cancel"
+                      defaultMessage="Cancelar"
                       description="Label for a button that appears when the user is editing the text of one of their messages, to cancel without saving changes"
                     />
                   ) : (
                     <FormattedMessage
-                      defaultMessage="Edit"
+                      defaultMessage="Editar"
                       description="Label for the button the user can click to edit the text of one of their messages"
                     />
                   )}
@@ -383,7 +383,7 @@ export default function MessageComponent(props: {
                 <i className="fa fa-refresh" />
                 <span>
                   <FormattedMessage
-                    defaultMessage="Regenerate"
+                    defaultMessage="Regenerar"
                     description="Label for the button used to ask the AI to regenerate one of its messages. Since message generations are stochastic, the resulting message will be different."
                   />
                 </span>
@@ -408,13 +408,13 @@ export default function MessageComponent(props: {
                 onClick={() => context.editMessage(props.message, content)}
               >
                 <FormattedMessage
-                  defaultMessage="Save changes"
+                  defaultMessage="Guardar cambios"
                   description="Label for a button that appears when the user is editing the text of one of their messages, to save the changes"
                 />
               </Button>
               <Button variant="subtle" onClick={() => setEditing(false)}>
                 <FormattedMessage
-                  defaultMessage="Cancel"
+                  defaultMessage="Cancelar"
                   description="Label for a button that appears when the user is editing the text of one of their messages, to cancel without saving changes"
                 />
               </Button>

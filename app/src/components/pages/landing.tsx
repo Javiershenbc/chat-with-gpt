@@ -45,9 +45,7 @@ export default function LandingPage(props: any) {
             compact
             onClick={onConnectButtonClick}
           >
-            <FormattedMessage
-              defaultMessage={"Connect your OpenAI account to get started"}
-            />
+            <FormattedMessage defaultMessage={"Conecta tu cuenta de OpenAI"} />
           </Button>
         )}
       </Container>

@@ -164,8 +164,8 @@ export default function Header(props: HeaderProps) {
   );
 
   const burgerLabel = sidebarOpen
-    ? intl.formatMessage({ defaultMessage: "Close sidebar" })
-    : intl.formatMessage({ defaultMessage: "Open sidebar" });
+    ? intl.formatMessage({ defaultMessage: "Cerrar barra lateral" })
+    : intl.formatMessage({ defaultMessage: "Abrir barra laterar" });
 
   const onNewChat = useCallback(async () => {
     setLoading(true);
@@ -213,7 +213,7 @@ export default function Header(props: HeaderProps) {
             <title>
               {props.title ? `${props.title} - ` : ""}
               {intl.formatMessage({
-                defaultMessage: "Chat with Hyper - Improved ChatGPT app",
+                defaultMessage: "Chatea con Hyper",
                 description: "HTML title tag",
               })}
             </title>
@@ -229,21 +229,21 @@ export default function Header(props: HeaderProps) {
           {context.isHome && (
             <h2>
               {intl.formatMessage({
-                defaultMessage: "Chat with Hyper",
+                defaultMessage: "Chatea con Hyper",
                 description: "app name",
               })}
             </h2>
           )}
           <div className="spacer" />
           <HeaderButton icon="search" onClick={spotlight.openSpotlight} />
-          <HeaderButton icon="gear" onClick={openSettings} />
+          {/* <HeaderButton icon="gear" onClick={openSettings} /> */}
           {backend.current &&
             !props.share &&
             props.canShare &&
             typeof navigator.share !== "undefined" && (
               <HeaderButton icon="share" onClick={props.onShare}>
                 <FormattedMessage
-                  defaultMessage="Share"
+                  defaultMessage="Compartir"
                   description="Label for the button used to create a public share URL for a chat log"
                 />
               </HeaderButton>
@@ -253,7 +253,7 @@ export default function Header(props: HeaderProps) {
               onClick={localStorage.getItem("registered") ? signIn : signUp}
             >
               <FormattedMessage
-                defaultMessage="Sign in <h>to sync</h>"
+                defaultMessage="Entra <h>para sincronizar</h>"
                 description="Label for sign in button, which indicates that the purpose of signing in is to sync your data between devices. Less important text inside <h> tags is hidden on small screens."
                 values={{
                   h: (chunks: any) => (
@@ -270,7 +270,7 @@ export default function Header(props: HeaderProps) {
             variant="light"
           >
             <FormattedMessage
-              defaultMessage="New Chat"
+              defaultMessage="Nuevo chat"
               description="Label for the button used to start a new chat session"
             />
           </HeaderButton>

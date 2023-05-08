@@ -171,7 +171,7 @@
     "description": "Label for a button that appears when the user is editing the text of one of their messages, to cancel without saving changes"
   },
   "role-chatgpt": {
-    "defaultMessage": "Lisa",
+    "defaultMessage": "Hyper",
     "description": "Label that is shown above messages written by the AI (as opposed to the user)"
   },
   "role-system": {

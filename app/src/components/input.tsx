@@ -19,7 +19,7 @@ import { useOption } from "../core/options/use-option";
 const Container = styled.div`
   background: #191919;
   border-top: thin solid #393933;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 1rem 1rem 1rem;
 
   .inner {
     max-width: 50rem;
@@ -254,7 +254,7 @@ export default function MessageInput(props: MessageInputProps) {
               }}
             >
               <FormattedMessage
-                defaultMessage={"Cancel"}
+                defaultMessage={"Cancelar"}
                 description="Label for the button that can be clicked while the AI is generating a response to cancel generation"
               />
             </Button>
@@ -363,7 +363,7 @@ export default function MessageInput(props: MessageInputProps) {
           minRows={hasVerticalSpace || context.isHome ? 3 : 2}
           maxRows={12}
           placeholder={intl.formatMessage({
-            defaultMessage: "Enter a message here...",
+            defaultMessage: "Introduzca su mensaje aquí",
           })}
           value={message}
           onChange={onChange}
@@ -371,7 +371,7 @@ export default function MessageInput(props: MessageInputProps) {
           rightSectionWidth={context.generating ? 100 : 55}
           onKeyDown={hotkeyHandler}
         />
-        <QuickSettings key={tab} />
+        {/* <QuickSettings key={tab} /> */}
       </div>
     </Container>
   );
