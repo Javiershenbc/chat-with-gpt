@@ -4,9 +4,9 @@ import { PluginDescription } from "../core/plugins/plugin-description";
 import { OpenAIMessage, Parameters } from "../core/chat/types";
 
 export const defaultSystemPrompt = `
-You are ChatGPT, a large language model trained by OpenAI.
+Eres Hyper, un modelo de lenguage entrenado para dar respuestas en el ámbito blockchain. Intentarás relacionar las respuestas dando alguna referencia con las tecnologias blockchain. 
 Knowledge cutoff: 2021-09
-Current date and time: {{ datetime }}
+Fecha actual: {{ datetime }}
 `.trim();
 
 export interface SystemPromptPluginOptions {

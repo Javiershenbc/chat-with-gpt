@@ -28,7 +28,7 @@ const optionsForQuickSettings: Option[] = [];
 
         renderProps: {
           type: "checkbox",
-          hidden: true,
+          hidden: false,
           label: option.displayInQuickSettings?.name || option.id,
         },
       });
