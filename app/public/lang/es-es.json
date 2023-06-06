@@ -213,5 +213,61 @@
   "zFt1cV": {
     "defaultMessage": "Encuentra tu clave API aquí",
     "description": "Etiqueta para el enlace que lleva al usuario a la página del sitio web de OpenAI donde puede encontrar su clave de API."
+  },
+  "5b706+": {
+    "defaultMessage": "Introduzca su contraseña",
+    "description": "Introduzca su contraseña"
+  },
+  "9h44lK": {
+    "defaultMessage": "Abrir",
+    "description": "Abrir"
+  },
+  "vVjLV/": {
+    "defaultMessage": "Introduzca su dirección de correo electrónico",
+    "description": "Enter your email"
+  },
+  "pPCiwO": {
+    "defaultMessage": "Correo electrónico",
+    "description": "Email address"
+  },
+  "QqT6DL": {
+    "defaultMessage": "Contraseña",
+    "description": "Password"
+  },
+  "laFF3e": {
+    "defaultMessage": "Introduzca su mensaje",
+    "description": "Chat placeholder"
+  },
+  "xSEnAl": {
+    "defaultMessage": "Conecta tu cuenta de OpenAI",
+    "description": "Connect your OpenAI account"
+  },
+  "p4PE64": {
+    "defaultMessage": "Hola, soy Hyper. ¿En que puedo ayudarte?",
+    "description": "Page presentation"
+  },
+  "kpK00E": {
+    "defaultMessage": "Nuevo chat",
+    "description": "Label for new chat button"
+  },
+  "dsIdFH": {
+    "defaultMessage": "Entra",
+    "description": "Entra"
+  },
+  "Sz0Ifb": {
+    "defaultMessage": "Chatea con Hyper",
+    "description": "Chatea con Hyper"
+  },
+  "ibYnxh": {
+    "defaultMessage": "Chatea con Hyper",
+    "description": "Chatea con Hyper"
+  },
+  "LRu8hd": {
+    "defaultMessage": "Abrir barra lateral",
+    "description": "Abrir barra lateral"
+  },
+  "VeyqwO": {
+    "defaultMessage": "Historial del chat",
+    "description": "Historial del chat"
   }
 }

@@ -217,5 +217,62 @@
   "zFt1cV": {
     "defaultMessage": "Find your API key here.",
     "description": "Label for the link that takes the user to the page on the OpenAI website where they can find their API key."
+  },
+
+  "5b706+": {
+    "defaultMessage": "Enter your password",
+    "description": "Enter your password"
+  },
+  "9h44lK": {
+    "defaultMessage": "Open",
+    "description": "Open"
+  },
+  "vVjLV/": {
+    "defaultMessage": "Enter your email address",
+    "description": "Enter your email"
+  },
+  "pPCiwO": {
+    "defaultMessage": "Email address",
+    "description": "Email address"
+  },
+  "QqT6DL": {
+    "defaultMessage": "Password",
+    "description": "Password"
+  },
+  "laFF3e": {
+    "defaultMessage": "Introduce your message here",
+    "description": "Chat placeholder"
+  },
+  "xSEnAl": {
+    "defaultMessage": "Connect your OpenAI account",
+    "description": "Connect your OpenAI account"
+  },
+  "p4PE64": {
+    "defaultMessage": "Hello, I'm Hyper. How can I help you?",
+    "description": "Page presentation"
+  },
+  "kpK00E": {
+    "defaultMessage": "New chat",
+    "description": "Label for new chat button"
+  },
+  "dsIdFH": {
+    "defaultMessage": "Enter",
+    "description": "Enter"
+  },
+  "Sz0Ifb": {
+    "defaultMessage": "Chat with Hyper",
+    "description": "Chat with Hyper"
+  },
+  "ibYnxh": {
+    "defaultMessage": "Chat with Hyper",
+    "description": "Chat with Hyper"
+  },
+  "LRu8hd": {
+    "defaultMessage": "Open lateral panel",
+    "description": "Open lateral panel"
+  },
+  "VeyqwO": {
+    "defaultMessage": "Chat history",
+    "description": "Chat history"
   }
 }

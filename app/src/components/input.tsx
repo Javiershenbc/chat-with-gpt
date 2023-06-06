@@ -341,6 +341,7 @@ export default function MessageInput(props: MessageInputProps) {
     return null;
   }
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const hotkeyHandler = useMemo(() => {
     const keys = [
       ["Escape", blur, { preventDefault: true }],

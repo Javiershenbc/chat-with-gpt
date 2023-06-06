@@ -1,5 +1,5 @@
 services:
   openai:
-    apiKey: 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
+    apiKey: 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
   elevenlabs:
     apiKey: d5ce585dc96447395c7bc46e1a45d76f

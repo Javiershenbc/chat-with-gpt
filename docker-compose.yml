@@ -4,18 +4,25 @@ services:
   chatwithgpt:
     image: chatwithgpt
     build:
-      context: server
+      context: ./server
       dockerfile: ./Dockerfile
     environment:
-      NODE_ENV: dev
+      - NODE_ENV=dev
+      - CHATWITHGPT_CONFIG_FILENAME=.env
+      - OPENAI_API_KEY=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
+      - ELEVENLABS_API_KEY=d5ce585dc96447395c7bc46e1a45d76f
+    volumes:
+      - ./server/.env:/usr/src/app/.env:ro
     ports:
       - 3001:3001
   app:
     image: app
     build:
-      context: app
+      context: ./app
       dockerfile: ./Dockerfile
     environment:
       NODE_ENV: dev
     ports:
       - 3000:3000
+    depends_on:
+      - chatapi
